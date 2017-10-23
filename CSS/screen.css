@@ -388,7 +388,8 @@ textarea {
 
     body {
         background-color: darkslategrey;
-        font-family: Geneva;
+        font-family: Geneva,Tahoma,Verdana,sans-serif;
+        line-height: 1.45em;
     }
 
     h1 {

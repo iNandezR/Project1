@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>Newsletter</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="CSS/screen.css" />
+  <script src="Javascript/JS.js"></script>
+</head>
+<body>
+      <div id="inputwrapper">
+        <div id="header">
+          <h1>Sign up for all the Latest Tech News</h1>
+        </div>
+        <form id="form" method="post" onsubmit="event.preventDefault(); validate();">
+          <div id="leftform">
+            <p id="fname">
+              <label for="firstname"></label>
+              <input type="text" id="firstname" name="onename" autocomplete="given-name" placeholder="First Name">
+            </p>
+            <p id="lname">
+              <label for="lastname"></label>
+              <input type="text" id="lastname" name="twoname" autocomplete="familiy-name" placeholder="Last Name">
+            </p>
+            <p id="idemail">
+              <label for="email"></label>
+              <input type="email" id="email" name="useremail" autocomplete="email" placeholder="Email">
+            </p>
+          </div>
+          <div id="rightform">
+            <p id="cbtitle">
+              Select the type of News you wish to receive:
+            </p>
+            <p id="cbsec" >
+              <label for="security">Security</label>
+              <input type="checkbox" id="security">
+            </p>
+            <p id="cbhw">
+              <label for="hardware">Hardware</label>
+              <input type="checkbox" id="hardware">
+            </p>
+            <p id="cbsw">
+              <label for="software">Software</label>
+              <input type="checkbox" id="software">
+            </p>
+            <p id="cbsysad">
+              <label for="sysadmin">System Administration</label>
+              <input type="checkbox" id="sysadmin">
+            </p>
+            <p id="cbweb">
+              <label for="web">Web Development</label>
+              <input type="checkbox" id="web">
+            </p>
+          </div>
+          <div id="subbut">
+              <button type="submit">Give Me My News NOW!!!!</button>
+          </div>
+        </form>
+      </div>
+</body>
+</html>

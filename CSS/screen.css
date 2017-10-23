@@ -272,7 +272,114 @@ textarea {
 
 /* For viewports smaller than 724px */
 
-@media only screen and (max-device-width: 723px) {
+body {
+    background-color: darkslategrey;
+    font-family: Geneva;
+}
+
+h1 {
+    margin: auto;
+    font-size: xx-large;
+    text-align: center;
+    color: silver;
+    background-color: #0e2439;
+}
+
+p {
+    padding: 1%;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: none;
+    font-size: x-large;
+}
+
+#cbtitle {
+    margin: auto;
+    padding: 2%;
+    font-size: large;
+    text-align: center;
+    color: silver;
+    background-color: #0e2439;
+}
+
+#cbsec {
+    margin: 1%;
+    padding: 2%;
+    font-size: x-large;
+    text-align: center;
+    color: silver;
+    background-color: #0e2439;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: 6%;
+    height: 10%;
+}
+
+#leftform label {
+    float: left;
+    display: inline-block;
+    margin: auto;
+    width: 80%;
+}
+
+#cbhw {
+    margin: 1%;
+    padding: 2%;
+    font-size: x-large;
+    text-align: center;
+    color: silver;
+    background-color: #0e2439;
+}
+
+#cbsw {
+    margin: 1%;
+    padding: 2%;
+    font-size: x-large;
+    text-align: center;
+    color: silver;
+    background-color: #0e2439;
+}
+
+#cbsysad {
+    margin: 1%;
+    padding: 2%;
+    font-size: x-large;
+    text-align: center;
+    color: silver;
+    background-color: #0e2439;
+}
+
+#cbweb {
+    margin: 1%;
+    padding: 2%;
+    font-size: x-large;
+    text-align: center;
+    color: silver;
+    background-color: #0e2439;
+}
+
+#subbut {
+    padding: 2%;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #575757;
+    color: silver;
+    font-size: x-large;
+    padding: 2%;
+}
+
+/* for tablets */
+@media only screen and (min-device-width: 600px) {
 
     body {
         background-color: darkslategrey;
